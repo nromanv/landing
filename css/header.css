@@ -1,5 +1,48 @@
 header {
+    background-image: url(../img/header-background.png);
     height: 930px;
     width: 1775px;
-    background-image: url(../img/header-background.png);
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header,
+.header-nav,
+.header-nav__menu,
+.header-nav__logo,
+.header-nav__social
+
+    {
+    border: 1px solid red;
+}
+
+.header-nav__menu {
+    width: auto;
+    display: flex;
+    flex: 1;
+    color: var(--subtitle-color);
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+    padding-right: 10px;
+    color: aliceblue;
+}
+
+.header-nav__logo {
+    width: auto;
+}
+
+.header-nav__social {
+    width: auto;
+    flex: 1;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.header-content {
+
 }

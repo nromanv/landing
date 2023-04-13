@@ -9,7 +9,10 @@
 }
 
 :root {
-    --title-color: black;
-    --sub-text-color: #14a9ee;
+    
     scroll-behavior: smooth;
+}
+
+.container {
+
 }
