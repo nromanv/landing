@@ -1,4 +1,4 @@
-@import "global.css";
-@import "header.css";
-@import "main.css";
-@import "footer.css";
+@import url("global.css");
+@import url ("header.css");
+@import url ("main.css");
+@import url ("footer.css");
