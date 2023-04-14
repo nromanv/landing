@@ -1,7 +1,8 @@
 .header {
-    width: 1770px;
-    height: 930px;
-    background: url(../img/header-background.png);
+    height: 920px;
+    background-image: url(../img/header-background.png);
+    background-position: bottom;
+    background-size: cover;
 }
 
 .header,
@@ -16,6 +17,7 @@
 .header-nav {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .header-nav__menu {
@@ -57,29 +59,28 @@
 }
 
 .header-content,
-.header-content__title,
-.header-content__text,
 .header-button {
     border: 1px solid blue;
 }
 
 .header-content {
-    padding-top: 80px;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
+    width: 766px;
+    margin: auto;
 }
 
-.header-content__title {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
+.header-title {
+    color: #FFFFFF;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+    margin-top: 175px;
+    margin-bottom: 27px;
+}
+.header-title {
 }
 .header-content__text {
-    display: flex;
-    justify-content: center;
 }
 .main-button {
-    display: flex;
-    justify-content: space-around;
 }
+
