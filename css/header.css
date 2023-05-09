@@ -1,52 +1,37 @@
 .header {
-    height: 920px;
+    max-width: 100%;
+    height: 847px;
     background-image: url(../img/header-background.png);
-    background-position: bottom;
     background-size: cover;
+    background-position: 50% 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.header,
-.header-nav,
-.header-nav__menu,
-.header-nav__logo,
-.header-nav__social
-    {
-    border: 1px solid red;
-}
-
-.header-nav {
+.header-body {
+    max-width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.header-nav__menu {
-    width: 600px;
-    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: end;
-    gap: 10px;
 }
 
-.header-nav__logo {
-    width: 240px;
-    padding: auto;
-}
-
-.header-nav__social {
-    width: 600px;
+.header__logo {
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header-nav__social-link {
-    margin: 24px;
-    width: 32px;
-    height: 32px;
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
-.header-nav__menu-item {
+.header__link {
+    display: flex;
+    text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
     padding-right: 10px;
@@ -54,33 +39,52 @@
     font-weight: 400;
 }
 
-.header-nav__menu-item:hover {
+.header__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__link:hover {
     text-decoration: underline;
 }
 
-.header-content,
-.header-button {
-    border: 1px solid blue;
-}
-
 .header-content {
-    width: 766px;
-    margin: auto;
-}
-
-.header-title {
-    color: #FFFFFF;
-    font-size: 74px;
-    font-weight: 700;
-    line-height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    margin-top: 175px;
-    margin-bottom: 27px;
-}
-.header-title {
-}
-.header-content__text {
-}
-.main-button {
 }
 
+.header-title {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.header-content__text {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 28px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.button_Try-For-Free {
+    margin: auto;
+    justify-content: center;
+    width: 236px;
+    height: 52px;
+    text-align: center;
+    border-radius: 35px;
+    background-color: #2091F9;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 70px
+}

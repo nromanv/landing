@@ -1,0 +1,57 @@
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252B42;
+    color: #FFFFFF
+}
+
+.footer__content-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}   
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.content-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 75px;
+    margin: 0;
+}
+
+.content-card-link {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px 0 15px 0;
+}
+
+.footer__content-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 85px;
+}
+.footer__content-geo,
+.footer__content-tel {
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer__content-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
